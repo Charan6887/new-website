@@ -1,0 +1,4 @@
+from collections import namedtuple
+n=namedtuple('p', 'x,y')
+pt=n(-3,5,)
+print(pt.x,pt.y)
